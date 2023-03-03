@@ -190,6 +190,9 @@ export default {
           map[r.id] = r.message;
         }
         $this.check.checkLogsMap = map;
+        if (!$this.checkLogs.length) {
+          $this.$message.success("检查完成，代码无问题");
+        }
         console.log("init checkLogsMap", $this.check.checkLogsMap);
       }).catch(function (err) {
         $this.$message.error(err.msg);
