@@ -172,7 +172,7 @@ public class ApiEngine {
     }
 
     private void setFieldValue(Object obj, Field field, Object value) throws TagException {
-        if (!field.canAccess(obj)) {
+        if (!field.isAccessible()) {
             field.setAccessible(true);
         }
         try {
