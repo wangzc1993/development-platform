@@ -98,7 +98,7 @@ public class FileController {
             treeFile.setLabel(f.getName());
             treeFile.setIsDir(f.isDirectory() ? 1 : 0);
             treeFile.setChildren(eachFiles(f));
-            treeFile.setFilePath(f.getPath().replace(".\\files\\", ""));
+            treeFile.setFilePath(f.getPath().replace("." + File.separator + "files" + File.separator, ""));
             files.add(treeFile);
         }
         return files;
