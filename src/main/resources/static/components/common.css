@@ -1,0 +1,14 @@
+.ex-row:hover {
+    background-color: #EBEEF5;
+    cursor: pointer;
+
+}
+
+.ex-item:hover {
+    background-color: #909399;
+    cursor: pointer;
+}
+
+.ex-item-error {
+    background-color: #F56C6C;
+}

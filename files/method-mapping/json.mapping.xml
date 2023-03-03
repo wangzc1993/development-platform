@@ -1,0 +1,16 @@
+<xml>
+    <class>org.nutz.json.Json</class>
+    <description>字符串方法映射</description>
+    <methods>
+        <method>
+            <methodName>toJson</methodName>
+            <description>转换为json字符串</description>
+            <scope>SIGNAL</scope>
+            <name>转换为Json</name>
+            <return type="java.lang.String">STRING</return>
+            <parameters>
+                <parameter type="java.lang.Object">OBJECT</parameter>
+            </parameters>
+        </method>
+    </methods>
+</xml>

@@ -1,0 +1,384 @@
+<xml id="qi7h8l0itsjpfq0rcci4igr0ae">
+    <meta id="28s9t1v5u4ilhq986blo2drv2g">
+        <id id="re30vpt8v4g9orudsah5g833as"><![CDATA[aaaaaaaaaaaaaaasafsadf41234]]></id>
+        <description id="vrg2q6hp00hq4q5c45ogipvsra"><![CDATA[测试用脚本]]></description>
+    </meta>
+    <api-parameters id="aaaaaaaaaaaaaaaaaaa">
+        <parameter id="bbbbbbbbbbbbb" type="def" name="请求参数1"></parameter>
+    </api-parameters>
+    <print id="ccccccccccccccccc"><value id="bbbbbbbbbbbb" type="ref" ref="请求参数1"></value></print>
+    <note id="ogh33js168h97o62qf6svkvefa"><![CDATA[11111111111111]]></note>
+    <note id="2onfp10684i44q23n7ebsam1bv"><![CDATA[注释测试]]></note>
+    <print id="qotjt5rvggi07pctpnf49bldtl">
+        <value type="value" name="" ref="" id="onbs5m2kbah5tqed2mvpb2vnoq"><![CDATA[fasdfasdf]]></value>
+        <value type="value" name="" ref="" id="te4060nf1uh7lqmabhnvdgrvnt"><![CDATA[fasdfasdf]]></value>
+    </print>
+    <value name="数字" id="57ul7jliakinjqnul773jm42sd" type="name-value"><![CDATA[1]]></value>
+    <value name="字符串" id="o4e4osc55qi0eqjbqavq0dtqo1" type="name-value"><![CDATA[flaksjdfl]]></value>
+    <value name="数组" id="r0u91urmuqhrfpaj3ocjiqu58t" type="name-code">
+        <array id="0k6ds1rtpujioqu1q85mfh1nsb">
+            <value id="392g8qdd4ijl6qdicsb7k9d866" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="43pi218pjoiorpknh25h2fa07u" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="3amlu8q0seh7vq03hrlutovb3n" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="6jtorain4ig6hptjsg5ohk9ae3" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="pnarmfv2cshpopfuc99jousv1l" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="vagltp1is6gaoocbv7jrs10t8g" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="4ubnkqpjugi2rr1qcnu9518tbe" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="7lt5uspt1miumrqedunf3g036p" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="1brdps2mfqhd6rgoqisn0vq207" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="5h60oamcsqj52p0r8n04k7udb2" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="uo27b1ke6sjd0qfai3t34h6p4i" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="qbl04hp27iij2qalati30slt3e" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="21t3oefjl4i5jqvmcmmptn245r" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="0cm3tbtoqmi6triug6a8iq8j2c" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="si5qi1r7d6gvcp6piqbb7agj28" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="1s0nee0cr4gj8rurr4o6q00meh" type="value"><![CDATA[flaskdjfl]]></value>
+            <value id="291e0nfqegjmtp0jcfd9u50tjh" type="value"><![CDATA[flaskdjfl]]></value>
+        </array>
+    </value>
+    <value name="对象" id="rs9mjk3q4uhg8rrnhca520qisa" type="name-code">
+        <map id="1rd9gat3beg4co41a6mhp7d463">
+            <map-value id="7umrf11ab4ga5r6un9duv7oceq" key="asbsdf">
+                <value id="v1d4qjkboghqrr02q02hvitvln" type="value"><![CDATA[flak就是浪费空间了]]></value>
+            </map-value>
+            <map-value id="r38ege5musiftq011fukk1r64n" key="asbsdf234">
+                <value id="16hb723jfoi36p029888r238p5" type="value"><![CDATA[flak就是浪费空间了]]></value>
+            </map-value>
+            <map-value id="4b0m1asufmgaqrkkcpjff57h0q" key="asbsdqwf">
+                <value id="1s3776tpk0j1qrundhmqo8btao" type="value"><![CDATA[flak就是浪费空间了]]></value>
+            </map-value>
+            <map-value id="rsl19k6thch30phiaoupbmku35" key="asbsdfasd">
+                <value id="24cist12oigccrjv21rght2juf" type="value"><![CDATA[flak就是浪费空间了]]></value>
+            </map-value>
+            <map-value id="7girv8p8g8imarddggs2pe3run" key="asbsdfzc">
+                <value id="r2o78n4rjuiokrcihp2gs8g5ki" type="value"><![CDATA[flak就是浪费空间了]]></value>
+            </map-value>
+        </map>
+    </value>
+    <value name="布尔" id="ockb45lbq6j8ho32vic0hp01kq" type="name-value"><![CDATA[true]]></value>
+    <if id="7746g3kl8gjntpn25jauus29a5">
+        <condition id="398f4md4h4hisoemfldrkt607q">
+            <value ref="布尔" id="10f9edbn8ajgko4vl8vms0cqrp" type="ref"></value>
+        </condition>
+        <do id="otvrop09meiuepl29utppsg1am">
+            <print id="3sehunvqqgig6pha5vc1p8rleq">
+                <value id="q2ipqf88s8hdbqe3bi6pf0mbs9" type="value"><![CDATA[判断：是]]></value>
+            </print>
+        </do>
+        <else id="3jie7gd4skheuok5kn12amknhm">
+            <print id="7jf0mc4enoj2tq6998768ia8bm">
+                <value id="re374r68bai0jrm5mkjqu5e37q" type="value"><![CDATA[判断：否]]></value>
+            </print>
+            <if id="16fmo4cs90jf5oqgdq3oav3mfp">
+                <condition id="6qgqvfu8rihfvokvvflh9bjjd6">
+                    <value ref="数字" id="31fpt95sqch0rpdlkjv4h0qq9v" type="ref"></value>
+                </condition>
+                <do id="q5pud96dckis5rt1mlq51j4ird">
+                    <print id="56tlv0mubuiqvohev0r79lqfh0">
+                        <value id="0cqtmp295ihedrderugi03fbdv" type="value"><![CDATA[判断：是]]></value>
+                    </print>
+                </do>
+            </if>
+        </else>
+    </if>
+    <if id="tbvku4mcd6g4aqk2jroqp47r4s">
+        <condition id="28283peai8idkpl0vt5ks2i023">
+            <value ref="数字" id="u69mj9g25sjl2r894rkimql22e" type="ref"></value>
+        </condition>
+        <do id="7rct83m5tggd2omlh147fal6sp">
+            <print id="s54sdkr1noiesoojif4drc4kum">
+                <value id="2e647au76kilvo76fd1m0bouc0" type="value"><![CDATA[判断：是]]></value>
+            </print>
+        </do>
+    </if>
+    <while id="5elqr233lihc0pvoe88t5gqk45">
+        <condition id="pjkjm2jbo4hdrof833vsrh4tjr">
+            <less id="vdkjv2fi6mhikpdudu4sqfmk41">
+                <value ref="数字" id="pt6tacm2c6htjrimj6kgqma4p8" type="ref"></value>
+                <value id="t715ju6ooiiedo12aikiotv267" type="value"><![CDATA[10]]></value>
+            </less>
+        </condition>
+        <do id="5gd7pc9n00hg3onvmb7ikpoeu0">
+            <value name="数字" id="shabd0qv10gfarclsqi1hkvj41" type="name-code">
+                <add id="s2s8ljf4iuhfko4utalpo1f1dg">
+                    <value ref="数字" id="48ugl536gki8hqeaqc1c46onrc" type="ref"></value>
+                    <value id="vkv5ibhheii5dpiic95up0oj47" type="value"><![CDATA[1]]></value>
+                </add>
+            </value>
+            <print id="s7okv1v9a2gnpqsb1r9e5u6l3h">
+                <add id="1889s2r4vci62o5ptp4p5ha7l7">
+                    <value id="188ehv4thqhlpqp0c77522nr9l" type="value"><![CDATA[循环输出：]]></value>
+                    <value ref="数字" id="u9vts56uu2gnmpupq7alp9080i" type="ref"></value>
+                </add>
+            </print>
+        </do>
+    </while>
+    <foreach id="t2gmv924dghnmommotn1npl8nl" value="value" key="key">
+        <item id="3aaq0av958hotrcttcvj85q7kb">
+            <value ref="数组" id="s552t7t09ejchr5a7prt28c0tm" type="ref"></value>
+        </item>
+        <do id="1bj7e53u2ohakofkd7g950kdr1">
+            <print id="78der3b6big3toh13hers2e1c2">
+                <add id="tvt9fo50e8g0spo7ldro79b8kc">
+                    <value id="3d2nm4q478joppss5fhllmqk7p" type="value"><![CDATA[数组遍历：]]></value>
+                    <value ref="key" id="q95iqdfif4hu0runcegpinak8j" type="ref"></value>
+                    <value id="1vu0o7unjsgtfqpteqf8n4iaup" type="value"><![CDATA[ - ]]></value>
+                    <value ref="value" id="tr9t51u5gij0up94kcqlpp1qra" type="ref"></value>
+                </add>
+            </print>
+            <if id="t4ucl83bd6ivfrgd728sm1v1rs">
+                <condition id="ueevrl3qaoh98o0l3tb2km2gom">
+                    <equal id="6coid9d2jchp4rqmjgu8evkc7k">
+                        <value ref="key" id="vnish8d4f4hv1qumnds62m5r63" type="ref"></value>
+                        <value id="3v1jc3tg90gn8p6772sn41asi4" type="value"><![CDATA[2]]></value>
+                    </equal>
+                </condition>
+                <do id="vfp5cr0r6ui15q5qfeun991qoa">
+                    <print id="oal36ifi1mjajr46gk1n711rd2">
+                        <value id="q1kekoe8pch0pqn0gn6n4n3ph9" type="value"><![CDATA[下标等于2时中断]]></value>
+                    </print>
+                    <break id="5pfnqfvrd6iqkqac2jv2uv36e4"></break>
+                </do>
+            </if>
+        </do>
+    </foreach>
+    <blank-line id="6phhrjsvkej0tpf1sk12ckg04s"></blank-line>
+    <foreach id="te5veg7sneinbqud0gnt5klhoi" value="value" key="key">
+        <item id="vnvt09rthehrcqrqrqi71krnp6">
+            <value ref="对象" id="543olk54bmjt0rtg9rijm1n8qs" type="ref"></value>
+        </item>
+        <do id="7mefuku57qi8uos239e7531153">
+            <print id="5uhp6eon7eg8iogdv78ll7bkd0">
+                <add id="5fhrtsg1iaionpc3gr9gk79s3c">
+                    <value id="15rp0js2rsj42o8itskkdlug4f" type="value"><![CDATA[对象遍历：]]></value>
+                    <value ref="key" id="ql9cpcfqnijk8raueqmfsn2ra9" type="ref"></value>
+                    <value id="3ublalhkrgjvbo1p87hpoqmkdq" type="value"><![CDATA[ - ]]></value>
+                    <value ref="value" id="ug2km0a2b4h5lqp0hlnvrp6807" type="ref"></value>
+                </add>
+            </print>
+        </do>
+    </foreach>
+    <for id="5le3mpr19oh84rho39e09vkpcf">
+        <start name="i" id="4nc0d4u944jbuqs6ohie89ltdp">
+            <value id="5koeu1ktuggthp7tqlumbcs7g0" type="value"><![CDATA[5]]></value>
+        </start>
+        <condition id="37f13alkuchccph3v3fpfc3cp5">
+            <less id="vr2j3edp28h2lp1pfcueem2u9a">
+                <value ref="i" id="6lru2j3r9cineo5puag32r5j7i" type="ref"></value>
+                <value id="r26mqig800gp0qbguupi402jhj" type="value"><![CDATA[10]]></value>
+            </less>
+        </condition>
+        <step id="5ngr6bfspqh7fr5gmq40umocj6"><![CDATA[1]]></step>
+        <do id="5ebn8f9726gduoa1p5fggs6l17">
+            <if id="tod8i350m4jr6rf2ncsduscfq9">
+                <condition id="1tpb3vp9bojcurrrafc4s58dpo">
+                    <equal id="487q0va362i51pohr9brt7lhvi">
+                        <value ref="i" id="qgo4af96vejh3omabu5jv9rq0s" type="ref"></value>
+                        <value id="13vsf9n248ijdovgfbttn91hkf" type="value"><![CDATA[8]]></value>
+                    </equal>
+                </condition>
+                <do id="t8l3cv6pmsidvqbn5pthfurlkn">
+                    <print id="2i168shhn0g74q8f8pjin7lanr">
+                        <value id="qf2hrc639kjmso3cst9egadi0l" type="value"><![CDATA[下标等于8时跳过]]></value>
+                    </print>
+                    <continue id="0dgm8vtto6g7mo9tgb8fcduega"></continue>
+                </do>
+            </if>
+            <print id="0k6n0qqiooi58oo190ij7d46vp">
+                <add id="1i6nkbmbo2h1uop37crev0hvd1">
+                    <value id="58bqar627ghtbrlshcho7qbplq" type="value"><![CDATA[循环：]]></value>
+                    <value ref="i" id="riid9mv1dkgh1ofdmu9kp23qme" type="ref"></value>
+                </add>
+            </print>
+        </do>
+    </for>
+    <print id="2a13hejvnmhl4p5kduupjbn0qp">
+        <add id="ojhqi1hidgjuhrjrp18g9sugdl">
+            <value id="4l4miranqugnco4mmkpr3uua1h" type="value"><![CDATA[当前数字是：]]></value>
+            <value ref="数字" id="uva9ncfloqjg9oasggqdchgcrf" type="ref"></value>
+        </add>
+    </print>
+    <select id="2u9fpkb90qjg3piucbo9rq1grk">
+        <target id="us9k211fecjajoj3e8aqhs7ke5">
+            <value ref="数字" id="4t0m26jsv2g5ao3i82h8gcnts2" type="ref"></value>
+        </target>
+        <case id="6uhriruefmiv0o1071kuid7nc9">
+            <target id="7lugibp7hgikro73a6co6e3tm7">
+                <value id="r4on53ie04jpfqhkitj0aqjeub" type="value"><![CDATA[6]]></value>
+            </target>
+            <do id="vttpefmkh8i2irkmein0ssvhlu">
+                <print id="60j9m50li2ik1okvm8bb7uqd8d">
+                    <value id="42krco1340gbkqm4p5tfnola3s" type="value"><![CDATA[选择: 6]]></value>
+                </print>
+            </do>
+        </case>
+        <case id="6heolc197oh39pv4ehvbnc9pso">
+            <target id="41obke0is6gtqpr62c3lhd4nl1">
+                <value id="uvhgu5sheojiqp1r81i16o93mi" type="value"><![CDATA[11]]></value>
+            </target>
+            <do id="4ee7tpvgcmg9qqnv1s89po8vk3">
+                <print id="t2rlh1qur0htgruuq7i132he3i">
+                    <value id="racevcqmq6ggbok8qitbidnif6" type="value"><![CDATA[选择: 11]]></value>
+                </print>
+            </do>
+        </case>
+        <default id="77nlh63tc4jmvon4qq65it6o4l">
+            <print id="um3iu3kjeeigvqif1e06g5qhr0">
+                <value id="2ambtr6170g27qmk3a37rj3qe6" type="value"><![CDATA[选择: 默认]]></value>
+            </print>
+        </default>
+    </select>
+    <function name="测试方法" id="22mitjnbk0glcpklf7ht1vo9n6" type="def">
+        <parameters id="1o03g3jn70g9gr4nou4e6p0ht5">
+            <parameter name="参数1" id="rs2qk3rmgcje3oo162thi7k98b" type="def"></parameter>
+            <parameter name="参数2" id="ra62lolioeimpr4um3m7ktftk0" type="def"></parameter>
+        </parameters>
+        <do id="tum2r1j0iijl0q21r88aqk9kv7">
+            <print id="r2bggrf488h6apjqn9k6ssu73s">
+                <add id="tv3fjf86kagejosbn5p6rtdtrl">
+                    <value id="ti52neun7ijlcp7tlfbcst7qvo" type="value"><![CDATA[内部方法测试参数1：]]></value>
+                    <value ref="参数1" id="1apbkfgsfsgtdoe17hg67dhk46" type="ref"></value>
+                </add>
+            </print>
+            <print id="pbhjtkfkpghddptlu4d49v31pf">
+                <add id="t94ckuej2khn3qvht655chkg7i">
+                    <value id="op2l1h0j2ghk9ri9qrmqadj8k1" type="value"><![CDATA[内部方法测试参数2：]]></value>
+                    <value ref="参数2" id="setg6urb3uji1riptchgv8ogia" type="ref"></value>
+                </add>
+            </print>
+            <return id="1a6t8167ugiicp87j1j2of7t7g">
+                <add id="1b8fhbf3t2j49rsv37fvgu46js">
+                    <value ref="参数1" id="7u6p7hbpkkg9hp2n2n85tnip0t" type="ref"></value>
+                    <value ref="参数2" id="1l9i6cnnlcjndo2apaq3g9l5d7" type="ref"></value>
+                </add>
+            </return>
+        </do>
+    </function>
+    <print id="p8sa1kj8jgjmqqfcfgmtrna93i">
+        <add id="7irjpc8op2ggtqkt5nr1ce2bos">
+            <value id="uvvltpmii6g9hquf4b10uqqoup" type="value"><![CDATA[方法返回参数测试：]]></value>
+            <function ref="测试方法" id="1dje8gvbouh4jpa8q6jupfnfgv" type="ref">
+                <parameters id="ssi79hqb2kiq8qji7s68i8je7l">
+                    <parameter id="67sih5j63ejqjos9u1ajtq725v" type="ref">
+                        <value ref="数字" id="36dfjkh002ivhrdt36okph68rd" type="ref"></value>
+                    </parameter>
+                    <parameter id="qirv3ncfaej31pfn5f65kl17vr" type="ref">
+                        <value ref="字符串" id="vgr3k4of5ahb5pccat9apnbjgh" type="ref"></value>
+                    </parameter>
+                </parameters>
+            </function>
+        </add>
+    </print>
+    <print id="sl2iq4j8h6jo6ol07d9d8ho51n">
+        <value id="sc69rp3ok2i3grr10muncmvurg" type="value"><![CDATA[乘3*5=]]></value>
+        <multiply id="554fobu488ia6pltt72cberf8j">
+            <value id="1f8be5l50ogucq7o18q358n964" type="value"><![CDATA[3]]></value>
+            <value id="uubs239msejifr3506ok25cne7" type="value"><![CDATA[5]]></value>
+        </multiply>
+    </print>
+    <print id="190b6n5gj0gbdqt7gb8jrm0ghs">
+        <value id="r8jks87a1khugo3h31grqmt1p0" type="value"><![CDATA[除10/2=]]></value>
+        <divide id="2kukgl1l7ogt1q0d03u3ah76rr">
+            <value id="u3ff30ng7cienqgm57o7s35b53" type="value"><![CDATA[10]]></value>
+            <value id="omn26hpoh2hhfps97a6jq87ee4" type="value"><![CDATA[2]]></value>
+        </divide>
+    </print>
+    <print id="uo43iiahp8ig4rqfo5s9c0qlik">
+        <value id="ondfbmca50it1pgjo1uccgb361" type="value"><![CDATA[加3+5=]]></value>
+        <add id="2an3cc3oo4j6frcce5buulvsrr">
+            <value id="4fuiotsubkgakpe6t786smtkf0" type="value"><![CDATA[3]]></value>
+            <value id="4qrrc0jqm4jgarmnorq56ugddq" type="value"><![CDATA[5]]></value>
+        </add>
+    </print>
+    <print id="16a3p00i56h0dol9mkfh5h4tj9">
+        <value id="r0qjj5fi9ujderek0c7erf2mqh" type="value"><![CDATA[减3-5=]]></value>
+        <subtract id="1ioje3frecic9qkc2kar8fqgif">
+            <value id="5jnflnephsivton5pqrdvtabeq" type="value"><![CDATA[3]]></value>
+            <value id="varo6iou3kjjeq5q5u15bdsh9f" type="value"><![CDATA[5]]></value>
+        </subtract>
+    </print>
+    <print id="0b6k4qo5gsiduraislgl7v361u">
+        <value id="557imgf2o8j1bo9m23s8or8thc" type="value"><![CDATA[大于等于3>=5: ]]></value>
+        <greater-or-equal id="u904td0gaei4rpb4eahhvfqr6n">
+            <value id="5s7bsggge0hh6ogtqgf74f7ait" type="value"><![CDATA[3]]></value>
+            <value id="4upnat1rn6h6prbmk6lnmtrlnk" type="value"><![CDATA[5]]></value>
+        </greater-or-equal>
+    </print>
+    <print id="ug3h06i7i6hakoktqre8q3t2bf">
+        <value id="shqm1nt03ci1lrag96sr10kusb" type="value"><![CDATA[小于等于3<=5: ]]></value>
+        <less-or-equal id="uqu3v3t392g1jou8c6ddergrch">
+            <value id="s1fhpl9buej0co4lfn7vllo7mh" type="value"><![CDATA[3]]></value>
+            <value id="o68q69vcbggc1q8vl2k22rfrgs" type="value"><![CDATA[5]]></value>
+        </less-or-equal>
+    </print>
+    <print id="0vn61imha2hdnp0bng7kj0at3n">
+        <value id="v9beshlbb4g13qqs3vn2uhd7hl" type="value"><![CDATA[相等3==5: ]]></value>
+        <equal id="vfvspm1d0ciosqlfnf9ffnrr2r">
+            <value id="okp0gethjgg3iraur0ccf2hhue" type="value"><![CDATA[3]]></value>
+            <value id="6lrrfla5rmgeeodishajarv5pf" type="value"><![CDATA[5]]></value>
+        </equal>
+    </print>
+    <print id="ojkpd55q2sg71rd4hhsvkmkva6">
+        <value id="vn0s10bltiiuprmfbjhqbnefpc" type="value"><![CDATA[不相等3!=5: ]]></value>
+        <not-equal id="3690pslj7cj7brcci4ncogu39k">
+            <value id="vpac14vns6io0pqj26l8hnc7a6" type="value"><![CDATA[3]]></value>
+            <value id="ttucrcdgnagamp70549k2hah07" type="value"><![CDATA[5]]></value>
+        </not-equal>
+    </print>
+    <print id="1f2hcpqt5kjthq94qcnme48n5f">
+        <value id="5r0pd3dju8i51o93q8pf2kql7p" type="value"><![CDATA[非true: ]]></value>
+        <not id="2sespccm42g1tpsjgdc8b70g7c">
+            <value id="6lq4ae85f0g27qgbbjpfsgh6jk" type="value"><![CDATA[true]]></value>
+        </not>
+    </print>
+    <print id="ovc1ahvkmegegrl5v75kko9s65">
+        <value id="v0t605jogui6bpdpedaon2vn5u" type="value"><![CDATA[大于3>5: ]]></value>
+        <greater id="2gm5m6c6iehbeqc7q1nhldes6d">
+            <value id="tds48lioiug6oq7l4b0li2ejm0" type="value"><![CDATA[3]]></value>
+            <value id="6ogd34oh86h46ol2gtk01a13hq" type="value"><![CDATA[5]]></value>
+        </greater>
+    </print>
+    <print id="sppjfc8j1ag3oqktaiqo50q7ti">
+        <value id="sgedbt4elchropm0eoeu9d7o9n" type="value"><![CDATA[小于3<5: ]]></value>
+        <less id="0cc2oqioaki0mqe4tjeu1b6g12">
+            <value id="t47ghlnojijr8of6ern2ic1v48" type="value"><![CDATA[3]]></value>
+            <value id="q6648hd62qib3octt08mcnrcsh" type="value"><![CDATA[5]]></value>
+        </less>
+    </print>
+    <print id="6obnibolfcisnr28cv8f67cnbp">
+        <value id="tig963b8iaj7uq4fer2hnj3he9" type="value"><![CDATA[逻辑与true&&false: ]]></value>
+        <and id="s0gcis7ms6g85qjbciosnd13n3">
+            <value id="4ohbqqrofoga9qm50r9pou7m5i" type="value"><![CDATA[true]]></value>
+            <value id="6bv69rn0k4jhlqouq6e45vpdj6" type="value"><![CDATA[false]]></value>
+        </and>
+    </print>
+    <print id="p8uo6ufolcjesp41vr0kk656vq">
+        <value id="sc19s4fqecga1r565nan5ckiun" type="value"><![CDATA[逻辑或true|false: ]]></value>
+        <or id="6a3ear95cuii7qqa7qfusu65tq">
+            <value id="61d1rs7ujchteqfqptb8fk7ie5" type="value"><![CDATA[true]]></value>
+            <value id="u06017jitkgutol4ku5n1a39o1" type="value"><![CDATA[false]]></value>
+        </or>
+    </print>
+    <print id="vqijjalcpohlao4btb57fkvmh3">
+        <value id="4ft0bcgdkcgvjq48d543v9pc57" type="value"><![CDATA[10+5*3/2 = ]]></value>
+        <divide id="sb4539g7u6hehq87dqkv5umne3">
+            <multiply id="3s09rd87hqgafo0aqb2cas3cqa">
+                <add id="0mb6gg0gnajdopssa4bud6j582">
+                    <value id="73v3ueepb4hq8o3a2sh8bbjq0f" type="value"><![CDATA[10]]></value>
+                    <value id="09pd6r5auojsspoi2oqqkeordj" type="value"><![CDATA[5]]></value>
+                </add>
+                <value id="509j4qql6iiaoptanfbnmmceih" type="value"><![CDATA[3]]></value>
+            </multiply>
+            <value id="o340kvmr5eggopbkeqlt4c50k6" type="value"><![CDATA[2]]></value>
+        </divide>
+    </print>
+    <return id="oinjbaeqhcg5mrrb85c59ap8jc">
+        <function ref="转换为Json" id="68i4o1rs6miujru1rremnj96op" type="ref">
+            <parameters id="utu365vak4iavqrbjshecua2oi">
+                <parameter id="vllimmdq1ei17r4gtnh0390l8u" type="ref">
+                    <value ref="对象" id="4apu4fjggehmrpi41skk1fdjta" type="ref"></value>
+                </parameter>
+            </parameters>
+        </function>
+    </return>
+</xml>
