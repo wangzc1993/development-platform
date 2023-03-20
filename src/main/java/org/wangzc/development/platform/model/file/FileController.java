@@ -55,28 +55,26 @@ public class FileController {
         return Result.ok();
     }
 
-    @GetMapping("/mk-dir")
-    public Result mkDir(String path, String dirName) throws AlertException, FileNotFoundException {
+    @PostMapping("/mk-file")
+    public Result mkFile(@RequestBody NutMap map) throws AlertException, FileNotFoundException {
+        boolean isDir = map.getBoolean("isDir");
+        String path = map.getString("path");
+        String name = map.getString("name");
         File dir = fileService.getFile(path);
         if (!dir.isDirectory()) {
             throw new AlertException("要添加的不是目录");
         }
-        Files.makeDir(new File(dir.getPath(), dirName));
-        return Result.ok();
-    }
-
-    @GetMapping("/mk-file")
-    public Result mkFile(String path, String fileName) throws AlertException, FileNotFoundException {
-        File dir = fileService.getFile(path);
-        if (!dir.isDirectory()) {
-            throw new AlertException("要添加的不是目录");
+        if (isDir) {
+            Files.makeDir(new File(dir.getPath(), name));
+        } else {
+            Files.createFileIfNoExists(new File(dir.getPath(), name + ".xml"));
         }
-        Files.createFileIfNoExists(new File(dir.getPath(), fileName + ".xml"));
         return Result.ok();
     }
 
-    @GetMapping("/delete")
-    public Result delete(String path) throws FileNotFoundException {
+    @PostMapping("/delete")
+    public Result delete(@RequestBody NutMap map) throws FileNotFoundException {
+        String path = map.getString("path");
         File file = fileService.getFile(path);
         if (file.isDirectory()) {
             Files.deleteDir(file);

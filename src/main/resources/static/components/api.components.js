@@ -1,4 +1,5 @@
 export default {
+    "aside-menu": () => import("./aside-menu.js"),
     "ex-api-parameters": () => import("./api/ex-api-parameters.js"),
     "ex-add": () => import("./api/ex-add.js"),
     "ex-and": () => import("./api/ex-and.js"),

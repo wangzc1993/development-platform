@@ -1,9 +1,9 @@
 const template = `
-<div class="container">
+<el-container>
     <div class="row">
         待开发
     </div>
-</div>
+</el-container>
 `;
 
 export default {
